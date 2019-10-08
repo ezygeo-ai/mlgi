@@ -1,4 +1,4 @@
-[![HitCount](http://hits.dwyl.com/ezygeo-ai/machine-learning-and-geophysical-inversion.svg)](http://hits.dwyl.com/mezygeo-ai/machine-learning-and-geophysical-inversion)
+[![HitCount](http://hits.dwyl.com/ezygeo-ai/machine-learning-and-geophysical-inversion.svg)](http://hits.dwyl.com/ezygeo-ai/machine-learning-and-geophysical-inversion)
 ![GitHub contributors](https://img.shields.io/github/contributors/ezygeo-ai/machine-learning-and-geophysical-inversion)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ezygeo-ai/machine-learning-and-geophysical-inversion)
 
