@@ -1,0 +1,1 @@
+print('Welcome to Machine Learning and Geophysical Inversion - A numerical study')
