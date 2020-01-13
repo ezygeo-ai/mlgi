@@ -31,9 +31,13 @@ I use DLS algorithm from [Kode Praktikum GP2103 Metode Komputasi versi Python](h
 <img src="https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/figure/sp_dls_inversion_result.png" width="80%">
 </p>
 
+**Initial Model** x0: 10 | alpha: 100 | h: 10 | K: 94500
+
 **Real Model** x0: 77.070000 | alpha: 309.370000 | h: 41.810000 | K: 94686.000000
-**Inversion Model** x0: 77.756350 | alpha: 309.341705 | h: 42.513176 | K: 97559.497734
-**Error**: 0.002705 %
+
+**Inversion Model** x0: 77.964354 | alpha: 98.834942 | h: 41.029489 | K: -93338.665905
+
+**Error**: 0.008146 %
 
 <ins>**Machine Learning: Multilayer Perceptron Neural Networks (MLPNN)**</ins>
 
