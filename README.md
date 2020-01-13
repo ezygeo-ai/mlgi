@@ -30,6 +30,7 @@ I use DLS algorithm from [Kode Praktikum GP2103 Metode Komputasi versi Python](h
 <p align="center">
 <img src="https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/figure/sp_dls_inversion_result.png" width="80%">
 </p>
+
 **Real Model** x0: 77.070000 | alpha: 309.370000 | h: 41.810000 | K: 94686.000000
 **Inversion Model** x0: 77.756350 | alpha: 309.341705 | h: 42.513176 | K: 97559.497734
 **Error**: 0.002705 %
