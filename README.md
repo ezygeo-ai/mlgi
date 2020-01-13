@@ -17,5 +17,4 @@ Before I will do it, I just try to compare Machine Learning (Multilayer Perceptr
 ## Machine Learning and Geophysical Inversion: Self-Potential Case
 
 Syntethic data was created from sphere model with parameters K = 94,686, h = 41.81 m,
-alpha = 309.37, dan x0 = 77.07 m. This result can be download [here](https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/data/SP_syn_data.pickle). Self-Potential Dataset that was generated with 5,000 different spherical models with differing electrical dipole moment, polarization angle, origin and depth to the centre of sphere [here]
-(https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/data/SP_Dataset.pickle).
+alpha = 309.37, dan x0 = 77.07 m. This result can be download [here](https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/data/SP_syn_data.pickle). Self-Potential Dataset that was generated with 5,000 different spherical models with differing electrical dipole moment, polarization angle, origin and depth to the centre of sphere [here](https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/data/SP_Dataset.pickle).
