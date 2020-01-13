@@ -53,4 +53,4 @@ plt.show()
 
 
 with open('data/SP_syn_data.pickle', 'wb') as f:
-    pickle.dump([measure_loc, get_SPData], f)
+    pickle.dump([measure_loc, get_SPData_noise], f)
