@@ -25,7 +25,7 @@ alpha = 309.37, dan x0 = 77.07 m. This result can be downloaded [here](https://g
 
 <ins>**Geophysical Inversion: Damped Least Squares (Levenberg–Marquardt) inversion (DLS)**</ins>
 
-I use DLS algorithm from [Kode Praktikum GP2103 Metode Komputasi versi Python](https://github.com/Metkom/Kode-Praktikum-GP2103-Metode-Komputasi-versi-Python) tutorial: [Modul 6 - Metode Komputasi 2018 - GP UP.pdf, page 34](https://osf.io/36yh8/) and [pm6f.py](https://github.com/Metkom/Kode-Praktikum-GP2103-Metode-Komputasi-versi-Python/blob/master/pm6f.py) code and research paper [W. Srigutomo, et al, 2016](http://ijphysics.com/index.php/ijp/article/view/138) that is modified [sp_dls_inversion.py](https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/sp_dls_inversion.py). This result was showed below.
+I use DLS algorithm from [Kode Praktikum GP2103 Metode Komputasi versi Python](https://github.com/Metkom/Kode-Praktikum-GP2103-Metode-Komputasi-versi-Python) tutorial: [Modul 6 - Metode Komputasi 2018 - GP UP.pdf, page 34](https://osf.io/36yh8/) and [pm6f.py](https://github.com/Metkom/Kode-Praktikum-GP2103-Metode-Komputasi-versi-Python/blob/master/pm6f.py) code. This result was showed below.
 
 <p align="center">
 <img src="https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/figure/sp_dls_inversion_result1.png" width="80%">
@@ -38,6 +38,8 @@ I use DLS algorithm from [Kode Praktikum GP2103 Metode Komputasi versi Python](h
 **Inversion Model** x0: 77.964354 | alpha: 98.834942 | h: 41.029489 | K: -93338.665905
 
 **Error**: 0.008146 %
+
+with research paper reference [W. Srigutomo, et al, 2016](http://ijphysics.com/index.php/ijp/article/view/138) that is modified [sp_dls_inversion_scratch.py]() below.
 
 <ins>**Machine Learning: Multilayer Perceptron Neural Networks (MLPNN)**</ins>
 
