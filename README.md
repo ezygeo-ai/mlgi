@@ -16,15 +16,15 @@ Before I will do it, I just try to compare Machine Learning (Multilayer Perceptr
 
 ## Machine Learning and Geophysical Inversion: Self-Potential Case
 
-Syntethic data was created from sphere model (using [sp_make_dataset.py](https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/sp_make_dataset.py)) with parameters K = 94,686, h = 41.81 m,
+Syntethic data was created from sphere model (using [fwd_sp.py](https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/fwd_sp.py)) with parameters K = 94,686, h = 41.81 m,
 alpha = 309.37, dan x0 = 77.07 m. This result can be downloaded [here](https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/data/SP_syn_data.pickle) and seen below. 
 
 <p align="center">
-<img src="https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/figure/syntethic_data.png" width="100%">
+<img src="https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/figure/syntethic_data.png" width="80%">
 </p>
 
-Self-Potential Dataset that was generated with 5,000 different spherical models with differing electrical dipole moment, polarization angle, origin and depth to the centre of sphere [here](https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/data/SP_Dataset.pickle) and seen below.
+Self-Potential Dataset that was generated with 5,000 different spherical models (using [sp_make_dataset.py](https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/sp_make_dataset.py)) with differing electrical dipole moment, polarization angle, origin and depth to the centre of sphere [here](https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/data/SP_Dataset.pickle) and seen below (using [sp_show_dataset.py](https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/sp_show_dataset.py)).
 
 <p align="center">
-<img src="https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/figure/syntethic_data.png" width="100%">
+<img src="https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/figure/training_dataset.png" width="50%"> <img src="https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/figure/validation_dataset.png" width="50%">
 </p>
