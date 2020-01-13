@@ -13,3 +13,9 @@ The pupose of this repo is to reconstruct paper from Y. Kim and N. Nakata (The L
 
 Before I will do it, I just try to compare Machine Learning (Multilayer Perceptron Neural Networks
 (MLPNN)) and Geophysical Inversion (traditional Damped Least Squares (Levenberg–Marquardt) inversion technique (DLS)) using paper from Ilknur Kaftan (Pure Appl. Geophys., Vol. 171, Issue 8, pp 1939–1949, 2014) about [Inversion of Self Potential Anomalies with Multilayer Perceptron Neural Networks](https://link.springer.com/article/10.1007/s00024-014-0778-y).
+
+## Machine Learning and Geophysical Inversion: Self-Potential Case
+
+Syntethic data was created from sphere model with parameters K = 94,686, h = 41.81 m,
+alpha = 309.37, dan x0 = 77.07 m. This result can be download [here](https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/data/SP_syn_data.pickle). Self-Potential Dataset that was generated with 5,000 different spherical models with differing electrical dipole moment, polarization angle, origin and depth to the centre of sphere [here]
+(https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/data/SP_Dataset.pickle).
