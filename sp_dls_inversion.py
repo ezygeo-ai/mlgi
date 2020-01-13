@@ -34,10 +34,10 @@ def pers(m, x, y):
 
 
 # initial model
-x0 = 77.07  # m
-alpha = 309.37
-h = 41.81   # m
-K = 94686
+x0 = 10  # m
+alpha = 100
+h = 10   # m
+K = 94500
 m0 = np.array([x0, alpha, h, K])
 
 # Levenberg-Marquardt (LM) algorithm
