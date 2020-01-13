@@ -40,7 +40,7 @@ get_SPData, get_SPData_noise, noise_from_maxData = SPfunc(measure_loc, par_mod) 
 
 plt.figure()
 plt.plot(measure_loc, get_SPData, 'b.')
-plt.plot(measure_loc, get_SPData_noise, 'r.')
+plt.plot(measure_loc, get_SPData_noise, 'r*')
 plt.xlabel('position (m)')
 plt.ylabel('SP data (mV)')
 plt.legend(['ori', 'noise'])
