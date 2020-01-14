@@ -8,26 +8,26 @@ import pickle
 
 
 # SP forward function
-def SPfunc(x, par):
-    x0 = par[0]
-    alpha = par[1]
-    h = par[2]
-    K = par[3]
+def SP_func(x_inp, par):
+    var_x0 = par[0]
+    var_alpha = par[1]
+    var_h = par[2]
+    var_k = par[3]
 
-    SPdata = []
-    for i in x:
-        var_up = (i - x0) * np.cos(alpha) - h * np.sin(alpha)
-        var_down = ((i - x0)*(i - x0) + h*h) ** (3/2)
-        var = K * (var_up / var_down)
-        SPdata.append(var)
+    var_sp = []
+    for i in x_inp:
+        var_up = (i - var_x0) * np.cos(var_alpha) - var_h * np.sin(var_alpha)
+        var_down = ((i - var_x0)*(i - var_x0) + var_h*var_h) ** (3/2)
+        var = var_k * (var_up / var_down)
+        var_sp.append(var)
 
     # === give noise for data (Gaussian Noise) 1
     std_noise = 10  # = %
     mean_noise = 0
     noise_data = np.random.normal(mean_noise, np.sqrt(std_noise), len(SPdata))
-    SPdata_noise = SPdata + noise_data
+    var_sp_noise = var_sp + noise_data
 
-    return SPdata, SPdata_noise, noise_data
+    return var_sp, var_sp_noise, noise_data
 
 
 # === MAKE SYNTHETIC DATASET
