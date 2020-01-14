@@ -1,5 +1,5 @@
 # Code was created by M. Heriyanto, 2020/01/13
-# https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/edit/master/fwd_sp.py
+# https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/scripts/derrivatives_in_python.py
 
 import sympy as sym
 # https://scipy-lectures.org/packages/sympy.html
