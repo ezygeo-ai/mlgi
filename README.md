@@ -39,7 +39,7 @@ I use DLS algorithm from [Kode Praktikum GP2103 Metode Komputasi versi Python](h
 
 **Error**: 0.029529 %
 
-with research paper reference [W. Srigutomo, et al, 2016](http://ijphysics.com/index.php/ijp/article/view/138) that is modified [sp_dls_inversion_scratch.py]() below.
+with research paper reference [W. Srigutomo, et al, 2016](http://ijphysics.com/index.php/ijp/article/view/138) that is modified [sp_dls_inversion_scratch.py]() below. Jacobian matrix was calculated using [derrivatives_in_python.py](https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/scripts/derrivatives_in_python.py).
 
 <ins>**Machine Learning: Multilayer Perceptron Neural Networks (MLPNN)**</ins>
 
