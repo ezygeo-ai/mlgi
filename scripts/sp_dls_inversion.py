@@ -14,25 +14,25 @@ with open(os.path.dirname(__file__) + '/../data/SP_syn_data.pickle', 'rb') as f:
 
 
 # forward function
-def fungsi(par, x):
-    x0 = par[0]
-    alpha = par[1]
-    h = par[2]
-    K = par[3]
+def forward(par, x_inp):
+    var_x0 = par[0]
+    var_alpha = par[1]
+    var_h = par[2]
+    var_k = par[3]
 
-    SPdata = []
-    for i in x:
-        var_up = (i - x0) * np.cos(alpha) - h * np.sin(alpha)
-        var_down = ((i - x0)*(i - x0) + h*h) ** (3/2)
-        var = K * (var_up / var_down)
-        SPdata.append(var)
+    var_sp = []
+    for i in x_inp:
+        var_up = (i - var_x0) * np.cos(var_alpha) - var_h * np.sin(var_alpha)
+        var_down = ((i - var_x0)*(i - var_x0) + var_h*var_h) ** (3/2)
+        var = var_k * (var_up / var_down)
+        var_sp.append(var)
 
-    return SPdata
+    return var_sp
 
 
 # misfit equation
-def pers(m, x, y):
-    return fungsi(m, x) - y
+def pers(var_m, x_inp, y):
+    return forward(var_m, x_inp) - y
 
 
 # initial model
@@ -42,7 +42,7 @@ h = 40   # m
 K = 94500
 m0 = np.array([x0, alpha, h, K])
 
-# Levenberg-Marquardt (LM) algorithm
+# Levenberg Marquardt (LM) algorithm
 # Ref: https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.least_squares.html
 result = ls(pers, m0, method='lm', args=(position, SPData_syntethic))
 x0 = result.x[0]
@@ -50,7 +50,7 @@ alpha = result.x[1]
 h = result.x[2]
 K = result.x[3]
 m = np.array([x0, alpha, h, K])
-SPData_calculation = fungsi(m, position)
+SPData_calculation = forward(m, position)
 
 # real data without noise
 x0_real = 77.07  # m
@@ -58,7 +58,7 @@ alpha_real = 309.37 * (np.pi/180)
 h_real = 41.81   # m
 K_real = 94686
 m_real = np.array([x0_real, alpha_real, h_real, K_real])
-SPData_real = fungsi(m_real, position)
+SPData_real = forward(m_real, position)
 
 # === Output
 print('Real Model x0: %f | alpha: %f | h: %f | K: %f' % (x0_real, alpha_real, h_real, K_real))
