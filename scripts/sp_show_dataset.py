@@ -8,11 +8,10 @@ import os.path
 
 # Visualization of the data set
 with open(os.path.dirname(__file__) + '/../data/SP_Dataset.pickle', 'rb') as f:
-    SPdataset = pickle.load(f)
+    sp_dataset = pickle.load(f)
 
-ndata, ncol = np.shape(SPdataset)
-itrain = int(0.8 * ndata)
-print('train data: ', itrain)
+ndata, = np.shape(sp_dataset)
+print('train data: ', int(0.8 * ndata))
 measure_loc = np.linspace(0, 150, 101)
 X_train = []
 X_valid = []
@@ -21,7 +20,7 @@ y_valid = []
 it_split = 1
 
 # getSPData contains SPdata, SPdata_noise, and noise_data
-for param, getSPData in SPdataset:
+for param, getSPData in sp_dataset:
     # split data for training and validation
     if it_split <= itrain:
         X_train.append(getSPData[1])  # SPdata_noise
@@ -48,3 +47,4 @@ plt.ylabel('SP data (mV)')
 plt.title('Self-Potential Dataset: Validation')
 plt.grid()
 plt.show()
+
