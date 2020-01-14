@@ -1,5 +1,6 @@
 # Code was created by M. Heriyanto, 2020/01/13
 # Ref: Ilknur Kaftan, et. al. 2014. Pure Appl. Geophys. Vol. 171, Issue 8, pp 1939–1949
+# https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/sp_make_dataset.py
 
 import numpy as np
 import random as rd
@@ -38,7 +39,7 @@ val_x0 = np.linspace(min_x0, max_x0, n_x0)
 min_alpha = 260
 max_alpha = 340
 n_alpha = 7     # point
-val_alpha = np.linspace(min_alpha, max_alpha, n_alpha)
+val_alpha = np.linspace(min_alpha, max_alpha, n_alpha) * (np.pi/180)
 
 min_ht = 7
 max_ht = 75
