@@ -16,34 +16,34 @@ Before I will do it, I just try to compare Machine Learning (Multilayer Perceptr
 
 ## Machine Learning and Geophysical Inversion: Self-Potential Case
 Reference: Inversion of Self Potential Anomalies with Multilayer Perceptron Neural Networks [Ilknur Kaftan et. al, 2014, Pure Appl. Geophys](https://link.springer.com/article/10.1007/s00024-014-0778-y)
-Syntethic data was created from sphere model (using [fwd_sp.py](https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/fwd_sp.py)) with parameters K = 94,686, h = 41.81 m,
+Syntethic data was created from sphere model (using [fwd_sp.py](https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/scripts/fwd_sp.py)) with parameters K = 94,686, h = 41.81 m,
 alpha = 309.37, dan x0 = 77.07 m. This result can be downloaded [here](https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/data/SP_syn_data.pickle) and seen below with [noise distribution](https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/figure/noise_distribution.png). 
 
 <p align="center">
-<img src="https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/figure/syntethic_data1.png" width="45%"> <img src="https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/figure/noise_distribution.png" width="45%">
+<img src="https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/figure/syntethic_data.png" width="45%"> <img src="https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/figure/noise_distribution.png" width="45%">
 </p>
 
 <ins>**Geophysical Inversion: Damped Least Squares (Levenberg–Marquardt) inversion (DLS)**</ins>
 
-I use DLS algorithm from [Kode Praktikum GP2103 Metode Komputasi versi Python](https://github.com/Metkom/Kode-Praktikum-GP2103-Metode-Komputasi-versi-Python) tutorial: [Modul 6 - Metode Komputasi 2018 - GP UP.pdf, page 34](https://osf.io/36yh8/) and [pm6f.py](https://github.com/Metkom/Kode-Praktikum-GP2103-Metode-Komputasi-versi-Python/blob/master/pm6f.py) code. This result was showed below.
+I use DLS algorithm from [Kode Praktikum GP2103 Metode Komputasi versi Python](https://github.com/Metkom/Kode-Praktikum-GP2103-Metode-Komputasi-versi-Python) tutorial: [Modul 6 - Metode Komputasi 2018 - GP UP.pdf, page 34](https://osf.io/36yh8/) and [pm6f.py](https://github.com/Metkom/Kode-Praktikum-GP2103-Metode-Komputasi-versi-Python/blob/master/pm6f.py) code. This result was showed using [sp_dls_inversion.py](https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/scripts/sp_dls_inversion.py) below.
 
 <p align="center">
-<img src="https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/figure/sp_dls_inversion_result1.png" width="80%">
+<img src="https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/figure/sp_dls_inv_result.png" width="80%">
 </p>
 
-**Initial Model** x0: 10 | alpha: 100 | h: 10 | K: 94500
+**Initial Model** x0: 20 | alpha: 100 (deg) | h: 40 | K: 94500
 
-**Real Model** x0: 77.070000 | alpha: 309.370000 | h: 41.810000 | K: 94686.000000
+**Real Model** x0: 77.070000 | alpha: 5.399525 (rad) | h: 41.810000 | K: 94686.000000
 
-**Inversion Model** x0: 77.964354 | alpha: 98.834942 | h: 41.029489 | K: -93338.665905
+**Inversion Model** x0: 76.243426 | alpha: 5.415794 (rad) | h: 42.776603 | K: 99102.106072
 
-**Error**: 0.008146 %
+**Error**: 0.029529 %
 
 with research paper reference [W. Srigutomo, et al, 2016](http://ijphysics.com/index.php/ijp/article/view/138) that is modified [sp_dls_inversion_scratch.py]() below.
 
 <ins>**Machine Learning: Multilayer Perceptron Neural Networks (MLPNN)**</ins>
 
-Self-Potential Dataset that was generated with 5,000 different spherical models (using [sp_make_dataset.py](https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/sp_make_dataset.py)) with differing electrical dipole moment, polarization angle, origin and depth to the centre of sphere [here](https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/data/SP_Dataset.pickle) and seen below (using [sp_show_dataset.py](https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/sp_show_dataset.py)). This dataset contains training (**80%**) dan validation (**20%**) dataset.
+Self-Potential Dataset that was generated with 5,000 different spherical models (using [sp_make_dataset.py](https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/scripts/sp_make_dataset.py)) with differing electrical dipole moment, polarization angle, origin and depth to the centre of sphere [here](https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/data/SP_Dataset.pickle) and seen below (using [sp_show_dataset.py](https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/scripts/sp_show_dataset.py)). This dataset contains training (**80%**) dan validation (**20%**) dataset.
 
 <p align="center">
 <img src="https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/figure/training_dataset.png" width="40%"> <img src="https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/figure/validation_dataset.png" width="40%">
