@@ -1,5 +1,5 @@
 # Code was created by M. Heriyanto, 2020/01/13
-# https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/sp_show_dataset.py
+# https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/scripts/sp_show_dataset.py
 
 import numpy as np
 import matplotlib.pyplot as plt
