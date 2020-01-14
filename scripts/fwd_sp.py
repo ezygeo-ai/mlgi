@@ -1,5 +1,5 @@
 # Code was created by M. Heriyanto, 2020/01/13
-# https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/edit/master/fwd_sp.py
+# https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/scripts/fwd_sp.py
 
 import numpy as np
 import matplotlib.pyplot as plt
