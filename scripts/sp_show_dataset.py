@@ -10,8 +10,9 @@ import os.path
 with open(os.path.dirname(__file__) + '/../data/SP_Dataset.pickle', 'rb') as f:
     sp_dataset = pickle.load(f)
 
-ndata, = np.shape(sp_dataset)
-print('train data: ', int(0.8 * ndata))
+ndata, ncol = np.shape(sp_dataset)
+itrain = int(0.8 * ndata)
+print('train data: ', itrain)
 measure_loc = np.linspace(0, 150, 101)
 X_train = []
 X_valid = []
