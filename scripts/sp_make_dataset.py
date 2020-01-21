@@ -8,7 +8,7 @@ import pickle
 
 
 # SP forward function
-def SP_func(x_inp, par):
+def SPfunc(x_inp, par):
     var_x0 = par[0]
     var_alpha = par[1]
     var_h = par[2]
@@ -24,7 +24,7 @@ def SP_func(x_inp, par):
     # === give noise for data (Gaussian Noise) 1
     std_noise = 10  # = %
     mean_noise = 0
-    noise_data = np.random.normal(mean_noise, np.sqrt(std_noise), len(SPdata))
+    noise_data = np.random.normal(mean_noise, np.sqrt(std_noise), len(var_sp))
     var_sp_noise = var_sp + noise_data
 
     return var_sp, var_sp_noise, noise_data
