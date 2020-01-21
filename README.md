@@ -49,8 +49,8 @@ Self-Potential Dataset that was generated with 5,000 different spherical models 
 <img src="https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/figure/training_dataset.png" width="40%"> <img src="https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/figure/validation_dataset.png" width="40%">
 </p>
 
-This MLPNN used two (2) hidden layers, first layer used 2 neurons and second layer used five (5) neurons. Then, learning rate = 0.1, activation function = hyperbolic tangent sigmoid function. The final MSE = 0.00306092 from 150 epochs.
+This MLPNN used two (2) hidden layers, input layer used 101 point of data (neurons), first layer used 2 neurons and second layer used five (5) neurons. Then, learning rate = 0.1, activation function = hyperbolic tangent sigmoid function. The final MSE = 0.00306092 from 150 epochs.
 
 <p align="center">
-<img src="https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/tutorial_images/MLP.png" width="100%">
+<img src="https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/tutorial_images/MLP.png" width="80%">
 </p>
