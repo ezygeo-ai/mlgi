@@ -7,8 +7,13 @@ import pickle
 import os.path
 
 # Visualization of the data set
-with open(os.path.dirname(__file__) + '/../data/SP_Dataset.pickle', 'rb') as f:
+# for windows
+with open(os.path.dirname(os.path.abspath(__file__)) + '/../data/SP_syn_data.pickle', 'rb') as f:
     sp_dataset = pickle.load(f)
+
+# for linux
+#with open(os.path.dirname(__file__) + '/../data/SP_syn_data.pickle', 'rb') as f:
+#    position, SPData_syntethic = pickle.load(f)
 
 ndata, ncol = np.shape(sp_dataset)
 itrain = int(0.8 * ndata)
