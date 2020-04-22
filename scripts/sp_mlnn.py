@@ -1,6 +1,7 @@
 # Ref: https://github.com/rcassani/mlp-example/blob/master/mlp_notebook.ipynb
 
 import mlp
+# from mlp import *
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -64,6 +65,7 @@ for ix in range(iterations):
     Y_hat = mlp_regression.predict(X_train)
     y_tmp = np.argmax(Y_hat, axis=1)
     # y_hat = labels[y_tmp]
+    y_hat = Y_hat
 
     loss[ix] = (0.5) * np.square(y_hat - y_train).mean()
 
