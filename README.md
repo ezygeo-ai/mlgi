@@ -7,7 +7,7 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ezygeo-ai/machine-learning-and-geophysical-inversion)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat&logo=linkedin&colorB=555)](https://www.linkedin.com/company/28696953)
 
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?ezygeo-ai)](https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion)
+[![Anurag's github stats](https://github-readme-stats.vercel.app/apiezygeo-ai)](https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion)
 
 # Machine Learning and Geophysical Inversion
 
