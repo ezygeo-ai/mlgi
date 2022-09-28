@@ -2,8 +2,8 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: Machine Learning for Geophysical Inversion
-author: Mohammad Heriyanto
-logo: https://github.com/ezygeo/ezygeo.github.io/blob/master/assets/product_images/logo.png
+author: mheriyanto
+logo: logos/ezygeo.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html

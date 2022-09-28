@@ -6,6 +6,5 @@ root: intro
 
 # https://jupyterbook.org/en/stable/structure/toc.html
 chapters:
-- file: chapters/markdown
-- file: notebook/notebooks
-- file: chapters/markdown-notebooks
+- file: chapters/mlgi-sp-case
+- file: notebook/fwd_sp
