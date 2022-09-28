@@ -2,4 +2,19 @@
 
 __pycache__/
 
-.idea
+.idea/
+
+# Ignored extensions
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+
+# files
+*.pickle
+
+# compiled file/folders
+_build/
