@@ -2,9 +2,20 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
-
+root: intro.md
+options:  
+  numbered: True
 # https://jupyterbook.org/en/stable/structure/toc.html
 chapters:
-- file: chapters/mlgi-sp-case
-- file: notebook/fwd_sp
+  - file: chapters/chap0/surveys.md
+  - file: chapters/chap0/why-inversion.md
+  - file: chapters/chap1/chap1.md
+    sections:
+      - file: chapters/chap1/1mlgi-sp-case.md
+      - file: chapters/chap1/1fwd_sp.ipynb
+  - file: chapters/chap2/chap2.md
+    sections:
+      - file: chapters/chap2/1fwd_sp.ipynb
+  - file: chapters/chap3/chap3.md
+    sections:
+      - file: chapters/chap3/1fwd_sp.ipynb

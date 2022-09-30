@@ -18,3 +18,4 @@ __pycache__/
 
 # compiled file/folders
 _build/
+docs/design.txt

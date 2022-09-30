@@ -1,14 +1,42 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Machine Learning for Geophysical Inversion
-author: mheriyanto
-logo: logos/ezygeo.png
+title: Hands-On Pembelajaran Mesin untuk Inversi Geofisika
+author: >
+  <a href="mailto:mheriyanto37@gmail.com">Mohammad Heriyanto</a>,
+  <a href="https://ezygeo.github.io">ezygeo</a>, Jakarta, Indonesia
+copyright: '2016–2022'
+logo: figures/logos/ezygeo.png
+
+exclude_patterns:
+  - __pycache__
+  - .github
+  - README.md
+  - sources
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
-  execute_notebooks: force
+  # execute_notebooks: force
+  execute_notebooks: off
+
+# Add GitHub buttons to your book
+# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+html:
+  favicon: figures/images/favicon.ico
+  use_edit_page_button: true
+  use_issues_button: true
+  use_repository_button: true
+  extra_navbar: >
+    <a href="https://doi.org/10.5281/zenodo.1807591"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1807591.svg" alt="DOI"></a></br>
+    <a href="https://github.com/ezygeo-ai/mlgi/blob/master/LICENSE"><img src="https://img.shields.io/badge/Licence-CC%20BY--NC--SA%204.0-lightgrey.svg" alt="Licence"></a>
+  extra_footer: >
+    <p>
+    This work is licenced under the
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative
+    Commons Attribution-NonCommercial-ShareAlike 4.0 International Licence</a>.
+    </p>
+  home_page_in_navbar: true
 
 # Define the name of the latex output file for PDF builds
 latex:
@@ -27,8 +55,3 @@ repository:
   path_to_book: ""  # Optional path to your book, relative to the repository root
   branch: master  # Which branch of the repository should be used when creating links (optional)
 
-# Add GitHub buttons to your book
-# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
-html:
-  use_issues_button: true
-  use_repository_button: true
