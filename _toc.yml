@@ -11,6 +11,7 @@ chapters:
     sections:
       - file: chapters/chap0/surveys.md
       - file: chapters/chap0/why-inversion.md
+chapters:
   - file: chapters/chap1/chap1.md
     sections:
       - file: chapters/chap1/1mlgi-sp-case.md

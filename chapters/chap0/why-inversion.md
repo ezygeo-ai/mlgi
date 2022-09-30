@@ -2,12 +2,12 @@
 
 Berikut ini perbedaan ketika data pengukuran diinterpretasi secara kualutatif dengan kuantitif.
 
-```{figure} /figures/chap0/tutorials/interpretation.jpg
+```{figure} /figures/chap0/tutorials/why-inversion.png
 ---
 name: 'fig:1.4'
 width: 100%
 ---
-Interpretasi parameter fisis bawah permukaan dengan data.[^1]
+Perbedaan interpretasi kualitatif dan kuantitatif.[^1]
 ```
 
 Interpretasi kualitatif dilakukan dengan cara melakukan *processing* data dengan menggunakan berbagai metode, biasanya menggunakan filtering/smoothing data kemudian diplotkan hasilnya. Interpretasinya dilakukan dengan mendeskripsikan hasil plot tersebut.
