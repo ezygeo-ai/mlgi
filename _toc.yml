@@ -7,8 +7,10 @@ options:
   numbered: True
 # https://jupyterbook.org/en/stable/structure/toc.html
 chapters:
-  - file: chapters/chap0/surveys.md
-  - file: chapters/chap0/why-inversion.md
+  - file: chapters/chap0/chap0.md
+    sections:
+      - file: chapters/chap0/surveys.md
+      - file: chapters/chap0/why-inversion.md
   - file: chapters/chap1/chap1.md
     sections:
       - file: chapters/chap1/1mlgi-sp-case.md
