@@ -21,12 +21,12 @@ The purpose of this repository is to reconstruct paper from Y. Kim and N. Nakata
 Reference: Inversion of Self Potential Anomalies with Multilayer Perceptron Neural Networks [Ilknur Kaftan et. al, 2014, Pure Appl. Geophys](https://link.springer.com/article/10.1007/s00024-014-0778-y)
 Syntethic data was created from sphere model (using [fwd_sp.py](https://github.com/ezygeo-ai/mlgi/blob/master/scripts/fwd_sp.py)) with parameters K = 94,686, h = 41.81 m, alpha = 309.37, dan x0 = 77.07 m. This result can be downloaded [here](https://github.com/ezygeo-ai/mlgi/blob/master/data/SP_syn_data.pickle) and seen below with noise distribution. 
 
-```{figure} results/syntethic_data.png
+```{figure} /figures/chap1/results/syntethic_data.png
 ---
 name: syntethic_data
 ---
 ```
-```{figure} results/noise_distribution.png
+```{figure} /figures/chap1/results/noise_distribution.png
 ---
 name: noise_distribution
 ---
@@ -36,7 +36,7 @@ name: noise_distribution
 
 I use DLS algorithm from [Kode Praktikum GP2103 Metode Komputasi versi Python](https://github.com/Metkom/Kode-Praktikum-GP2103-Metode-Komputasi-versi-Python) tutorial: [Modul 6 - Metode Komputasi 2018 - GP UP.pdf, page 34](https://osf.io/36yh8/) and [pm6f.py](https://github.com/Metkom/Kode-Praktikum-GP2103-Metode-Komputasi-versi-Python/blob/master/pm6f.py) code. This result was showed using [sp_dls_inversion.py](https://github.com/ezygeo-ai/mlgi/blob/master/scripts/sp_dls_inversion.py) below.
 
-```{figure} results/sp_dls_inv_result.png
+```{figure} /figures/chap1/results/sp_dls_inv_result.png
 ---
 name: sp_dls_inv_result
 ---
@@ -56,12 +56,12 @@ with research paper reference [W. Srigutomo, et al, 2016](http://ijphysics.com/i
 
 Self-Potential Dataset that was generated with 5,000 different spherical models (using [sp_make_dataset.py](https://github.com/ezygeo-ai/mlgi/blob/master/scripts/sp_make_dataset.py)) with differing electrical dipole moment, polarization angle, origin and depth to the centre of sphere [here](https://github.com/ezygeo-ai/mlgi/blob/master/data/SP_Dataset.pickle) and seen below (using [sp_show_dataset.py](https://github.com/ezygeo-ai/mlgi/blob/master/scripts/sp_show_dataset.py)). This dataset contains training (**80%**) dan validation (**20%**) dataset.
 
-```{figure} results/training_dataset.png
+```{figure} /figures/chap1/results/training_dataset.png
 ---
 name: training_dataset
 ---
 ```
-```{figure} results/validation_dataset.png
+```{figure} /figures/chap1/results/validation_dataset.png
 ---
 name: validation_dataset
 ---
@@ -69,7 +69,7 @@ name: validation_dataset
 
 This MLPNN used two (2) hidden layers, input layer used 101 point of data (neurons), first layer used 2 neurons and second layer used five (5) neurons. Then, learning rate = 0.1, activation function = hyperbolic tangent sigmoid function. The final MSE = 0.00306092 from 150 epochs.
 
-```{figure} tutorials/mlp.png
+```{figure} /figures/chap1/tutorials/mlp.png
 ---
 name: mlp
 ---
