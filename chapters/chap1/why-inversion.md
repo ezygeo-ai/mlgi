@@ -2,7 +2,7 @@
 
 Berikut ini perbedaan ketika data pengukuran diinterpretasi secara kualutatif dengan kuantitif.
 
-```{figure} /figures/chap0/tutorials/why-inversion.png
+```{figure} /figures/chap1/tutorials/why-inversion.png
 ---
 name: 'fig:1.4'
 width: 100%
