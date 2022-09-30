@@ -2,22 +2,40 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro.md
+root: home.md
 options:  
   numbered: True
 # https://jupyterbook.org/en/stable/structure/toc.html
-chapters:
-  - file: chapters/chap1/chap1.md
-    sections:
-      - file: chapters/chap1/surveys.md
-      - file: chapters/chap1/why-inversion.md
-  - file: chapters/chap2/chap2.md
-    sections:
-      - file: chapters/chap2/1mlgi-sp-case.md
-      - file: chapters/chap2/1fwd_sp.ipynb
-  - file: chapters/chap3/chap3.md
-    sections:
-      - file: chapters/chap3/1fwd_sp.ipynb
-  - file: chapters/chap4/chap4.md
-    sections:
-      - file: chapters/chap4/1fwd_sp.ipynb
+parts:
+  - caption: Pendekatan Lokal
+    chapters:
+      # 1. Pendahuluan 
+      - file: chapters/chap1/chap1.md
+        sections:
+          - file: chapters/chap1/1-surveys.md
+          - file: chapters/chap1/2-why-inversion.md
+      # 2. Pemodelan Kedepan
+      - file: chapters/chap2/chap2.md
+        sections:
+          - file: chapters/chap2/1-mlgi-sp-case.md
+          - file: chapters/chap2/1-fwd_sp.ipynb
+      # 3. Pemodelan Inversi
+      - file: chapters/chap3/chap3.md
+        sections:
+          - file: chapters/chap3/1-ls.md
+          - file: chapters/chap3/2-lm.md
+          - file: chapters/chap3/1-svd.md
+  - caption: Pendekatan Global
+    chapters:
+      # 4. Metaheuristics
+      - file: chapters/chap4/chap4.md
+        sections:
+          - file: chapters/chap4/1-sa.md
+          - file: chapters/chap4/2-vfsa.md
+          - file: chapters/chap4/3-pso.md
+      # 5. Pembelajaran Mesin
+      - file: chapters/chap5/chap5.md
+        sections:
+          - file: chapters/chap5/1-supervised-learning.md
+          - file: chapters/chap5/2-unsupervised-learning.md
+          - file: chapters/chap5/3-neural-network.md

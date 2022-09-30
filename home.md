@@ -1,4 +1,4 @@
-# Hands-On Pembelajaran Mesin untuk Inversi Geofisika
+# *Hands-On* Pembelajaran Mesin untuk Inversi Geofisika
 
 Berikut ini adalah halaman muka dari kumpulan artikel terkait implementasi pembelajaran mesin untuk inversi geofisika
 

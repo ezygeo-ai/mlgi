@@ -1,7 +1,8 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Hands-On Pembelajaran Mesin untuk Inversi Geofisika
+title: >
+  *Hands-On* Pembelajaran Mesin untuk Inversi Geofisika
 author: >
   <a href="mailto:mheriyanto37@gmail.com">Mohammad Heriyanto</a>,
   <a href="https://ezygeo.github.io">ezygeo</a>, Jakarta, Indonesia
@@ -28,6 +29,7 @@ html:
   use_issues_button: true
   use_repository_button: true
   extra_navbar: >
+    <a href="https://mheriyanto.dev"><img src="https://raw.githubusercontent.com/mheriyanto/mheriyanto.github.io/master/assets/images/mh-logo.png" height="45" width="45" title="mheriyanto"></a></br>
     <a href="https://doi.org/10.5281/zenodo.1807591"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1807591.svg" alt="DOI"></a></br>
     <a href="https://github.com/ezygeo-ai/mlgi/blob/master/LICENSE"><img src="https://img.shields.io/badge/Licence-CC%20BY--NC--SA%204.0-lightgrey.svg" alt="Licence"></a>
   extra_footer: >
