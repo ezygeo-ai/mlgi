@@ -1,4 +1,4 @@
-# Least Square (LS)
+# Supervised Learning
 
 ```{contents}
 :local:

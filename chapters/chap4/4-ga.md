@@ -1,4 +1,4 @@
-# Least Square (LS)
+# Genetic Algorithm (GA)
 
 ```{contents}
 :local:

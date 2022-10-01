@@ -1,4 +1,4 @@
-# Least Square (LS)
+# Monte Carlo (MC)
 
 ```{contents}
 :local:

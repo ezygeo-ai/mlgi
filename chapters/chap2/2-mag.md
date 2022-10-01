@@ -1,4 +1,4 @@
-# Least Square (LS)
+# Magnetik
 
 ```{contents}
 :local:

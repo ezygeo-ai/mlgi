@@ -1,1 +1,8 @@
-# Pemodelan Inversi
+# **Pemodelan Inversi**
+
+```{tableofcontents}
+```
+
+```{contents}
+:local:
+```
