@@ -9,7 +9,7 @@
 
 Halaman muka dari kumpulan artikel terkait implementasi pembelajaran mesin (*machine learning*) untuk inversi geofisika.
 
-*Hands-on* disini memakai bahasa pemograman [Python](https://en.wikipedia.org/wiki/Python_(programming_language)), [MATLAB (Octave)](https://en.wikipedia.org/wiki/GNU_Octave) dan [C++](https://en.wikipedia.org/wiki/C%2B%2B).
+*Hands-on* disini memakai bahasa pemograman [**Python**](https://en.wikipedia.org/wiki/Python_(programming_language)), [**MATLAB (Octave)**](https://en.wikipedia.org/wiki/GNU_Octave) dan [**C++**](https://en.wikipedia.org/wiki/C%2B%2B).
 
 ## **Daftar isi**
 

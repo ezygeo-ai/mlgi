@@ -8,7 +8,7 @@ Beberapa pengukuran metode geofisika yang umum dilakukan yaitu gravity, magnetik
 name: 'fig:1.1'
 width: 100%
 ---
-Gambaran pengukuran metode geofisika.[^1]
+Gambaran pengukuran metode geofisika {cite}`oldenburg2007`.
 ```
 
 Ketika melakukan pengukuran metode geofisika di lapangan maka akan didapatkan **data**. Kemudian dari data tersebut perlu dinterpretasi, baik berupa interpretasi kualitatif ataupun kuantatif. Interpretasi ini dilakukan agar bisa menjelaskan kondisi bawah permukaan bumi yang berupa parameter fisis densitas, susceptibilitas, resistivitas dan lain-lain. Parameter fisis bawah permukaan ini biasa disebut sebagai **model** (model bawah permukaan bumi).
@@ -18,7 +18,7 @@ Ketika melakukan pengukuran metode geofisika di lapangan maka akan didapatkan **
 name: 'fig:1.2'
 width: 100%
 ---
-Metode-metode geofisika dan parameter fisis bawah permukaan.[^1]
+Metode-metode geofisika dan parameter fisis bawah permukaan {cite}`oldenburg2007`.
 ```
 
 Interpretasi kuantitatif dengan menggunakan persamaan yang menghubungkan data dengan parameter fisis bawah permukaan, disebut sebagai **inversi**.
@@ -29,7 +29,5 @@ Interpretasi kuantitatif dengan menggunakan persamaan yang menghubungkan data de
 name: 'fig:1.3'
 width: 100%
 ---
-Interpretasi parameter fisis bawah permukaan dengan data.[^1]
+Interpretasi parameter fisis bawah permukaan dengan data {cite}`oldenburg2007`.
 ```
-
-[^1]: Inversion Concept: Introduction Geophysical Inversion. Website: https://gif.eos.ubc.ca/IAG

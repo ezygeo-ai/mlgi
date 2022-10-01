@@ -21,8 +21,7 @@ parts:
         sections:
           - file: chapters/chap2/1-grav.md
           - file: chapters/chap2/2-mag.md
-          - file: chapters/chap2/3-sp.md
-          - file: chapters/chap2/3-fwd_sp.ipynb
+          - file: chapters/chap2/3-sp-py.ipynb
           - file: chapters/chap2/4-ip.md
       # 3. Pemodelan Inversi
       - file: chapters/chap3/chap3.md
@@ -48,3 +47,5 @@ parts:
           - file: chapters/chap5/1-sl.md
           - file: chapters/chap5/2-ul.md
           - file: chapters/chap5/3-nn.md
+  - chapters:
+    - file: chapters/bibliography.md
