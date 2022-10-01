@@ -15,10 +15,11 @@ kernelspec:
 
 
 # Magnetik
-> Diperbarui: Minggu, 6 November 2016 
+> Diperbarui: Minggu, 7 November 2017
 
 ```{contents}
 :local:
 ```
-
 pustaka: {cite}`Heriyanto2017mag`.
+
+pustaka: {cite}`Heriyanto2017mag2`.
