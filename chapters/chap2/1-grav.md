@@ -1,4 +1,4 @@
-# Least Square (LS)
+# Gaya Berat (Gravity)
 
 ```{contents}
 :local:

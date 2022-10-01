@@ -3,11 +3,13 @@
 
 format: jb-book
 root: home.md
-options:  
-  numbered: True
 # https://jupyterbook.org/en/stable/structure/toc.html
 parts:
-  - caption: Pendekatan Lokal
+  - chapters:
+    - file: chapters/preface.md
+  - caption: ♾️ Pendekatan Lokal
+    numbered: True
+    maxdepth: 4
     chapters:
       # 1. Pendahuluan 
       - file: chapters/chap1/chap1.md
@@ -17,25 +19,32 @@ parts:
       # 2. Pemodelan Kedepan
       - file: chapters/chap2/chap2.md
         sections:
-          - file: chapters/chap2/1-mlgi-sp-case.md
-          - file: chapters/chap2/1-fwd_sp.ipynb
+          - file: chapters/chap2/1-grav.md
+          - file: chapters/chap2/2-mag.md
+          - file: chapters/chap2/3-sp.md
+          - file: chapters/chap2/3-fwd_sp.ipynb
+          - file: chapters/chap2/4-ip.md
       # 3. Pemodelan Inversi
       - file: chapters/chap3/chap3.md
         sections:
           - file: chapters/chap3/1-ls.md
           - file: chapters/chap3/2-lm.md
-          - file: chapters/chap3/1-svd.md
-  - caption: Pendekatan Global
+          - file: chapters/chap3/3-svd.md
+  - caption: 🧠 Pendekatan Global
+    numbered: True
+    maxdepth: 4
     chapters:
       # 4. Metaheuristics
       - file: chapters/chap4/chap4.md
         sections:
+          - file: chapters/chap4/0-mc.md
           - file: chapters/chap4/1-sa.md
           - file: chapters/chap4/2-vfsa.md
           - file: chapters/chap4/3-pso.md
+          - file: chapters/chap4/4-ga.md
       # 5. Pembelajaran Mesin
       - file: chapters/chap5/chap5.md
         sections:
-          - file: chapters/chap5/1-supervised-learning.md
-          - file: chapters/chap5/2-unsupervised-learning.md
-          - file: chapters/chap5/3-neural-network.md
+          - file: chapters/chap5/1-sl.md
+          - file: chapters/chap5/2-ul.md
+          - file: chapters/chap5/3-nn.md
