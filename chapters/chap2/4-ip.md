@@ -3,3 +3,5 @@
 ```{contents}
 :local:
 ```
+
+pustaka: {cite}`Heriyanto2017sp`.
