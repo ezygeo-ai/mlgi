@@ -1,7 +1,7 @@
 [![Online](https://img.shields.io/badge/read-online-green.svg)](https://mheriyanto.dev/mlgi)
 ![Jupyter Book Badge](https://jupyterbook.org/badge.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/ezygeo-ai/mlgi)
-![GitHub last commit](https://img.shields.io/github/last-commit/ezygeo-ai/mlgi)
+![GitHub last update](https://img.shields.io/github/last-commit/ezygeo-ai/mlgi)
 
 # 🧑‍💻 ***Hands-On* Pembelajaran Mesin untuk Inversi Geofisika**
 
