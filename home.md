@@ -2,6 +2,7 @@
 ![Jupyter Book Badge](https://jupyterbook.org/badge.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/ezygeo-ai/mlgi)
 ![GitHub last update](https://img.shields.io/github/last-commit/ezygeo-ai/mlgi)
+![GitHub Repo stars](https://img.shields.io/github/stars/ezygeo-ai/mlgi?style=social)
 
 # 🧑‍💻 ***Hands-On* Pembelajaran Mesin untuk Inversi Geofisika**
 

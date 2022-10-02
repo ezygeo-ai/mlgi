@@ -46,8 +46,8 @@ html:
   use_issues_button: true
   extra_navbar: >
     <b>partially published on:</b></br>
-    <a href="https://medium.com/@mheriyanto"><img src="https://raw.githubusercontent.com/mheriyanto/mheriyanto/master/icons/medium.png" height="45" width="45" title="medium"></a>
-    <a href="https://dev.to/mheriyanto"><img src="https://raw.githubusercontent.com/mheriyanto/mheriyanto/master/icons/dev.png" height="45" width="45" title="dev.to"></a>
+    <a href="https://medium.com/@mheriyanto"><img src="https://raw.githubusercontent.com/mheriyanto/mheriyanto/master/icons/medium.png" height="30" width="30" title="medium"></a>
+    <a href="https://dev.to/mheriyanto"><img src="https://raw.githubusercontent.com/mheriyanto/mheriyanto/master/icons/dev.png" height="30" width="30" title="dev.to"></a>
     </br></br>
     <b>authors:</b></br>
     <a href="https://mheriyanto.dev"><img src="https://raw.githubusercontent.com/mheriyanto/mheriyanto.github.io/master/assets/images/mh-logo.png" height="45" width="45" title="mheriyanto"></a>
