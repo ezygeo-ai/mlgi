@@ -5,7 +5,7 @@ title: >
   <p><i>Hands-On</i> Pembelajaran Mesin untuk Inversi Geofisika</p>
 author: >
   <a href="mailto:mheriyanto37@gmail.com">M. Heriyanto</a>,
-  <a href="https://ezygeo.github.io">ezygeo</a>, Jakarta, Indonesia
+  <a href="https://ezygeo.github.io">ezygeo</a>, Jakarta, Indonesia. <a href="https://choosealicense.com/licenses/mit">MIT License</a>.
 copyright: '2016–2022'
 logo: figures/logos/ezygeo.png
 
@@ -31,14 +31,15 @@ html:
   extra_navbar: >
     <a href="https://mheriyanto.dev"><img src="https://raw.githubusercontent.com/mheriyanto/mheriyanto.github.io/master/assets/images/mh-logo.png" height="45" width="45" title="mheriyanto"></a>
     <a href="https://ezygeo.github.io"><img src="https://raw.githubusercontent.com/mheriyanto/mheriyanto.github.io/master/assets/logos/ezygeo.png" height="45" width="45" title="ezygeo"></a>
-    </br>
-    </br>
+    </br></br>
     <a href="https://doi.org/10.5281/zenodo.1807591"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1807591.svg" alt="DOI"></a></br>
     <a href="https://github.com/ezygeo-ai/mlgi/blob/master/LICENSE"><img src="https://img.shields.io/github/license/ezygeo-ai/mlgi.svg" alt="Licence"></a>
-  extra_footer: >
-    <p>
-    This work is licenced under the <a href="https://choosealicense.com/licenses/mit">MIT License</a>.
-    </p>
+    </br>
+    <a href="https://www.hitwebcounter.com" target="_blank"><img src="https://hitwebcounter.com/counter/counter.php?page=8045874&style=0006&nbdigits=5&type=page&initCount=0" title="visitor" Alt="web-counter" border="0"/></a> 
+  # extra_footer: >
+  #   <p>
+  #   This work is licenced under the <a href="https://choosealicense.com/licenses/mit">MIT License</a>.
+  #   </p>
   home_page_in_navbar: true
 
 # Define the name of the latex output file for PDF builds

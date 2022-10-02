@@ -1,6 +1,6 @@
 # Code was created by M. Heriyanto, 2020/01/13
 # Ref: Ilknur Kaftan, et. al. 2014. Pure Appl. Geophys. Vol. 171, Issue 8, pp 1939–1949
-# https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/scripts/sp_make_dataset.py
+# https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/python/sp_make_dataset.py
 
 import numpy as np
 import random as rd

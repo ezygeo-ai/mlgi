@@ -1,5 +1,5 @@
 # Code was created by M. Heriyanto, 2020/01/13
-# https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/scripts/sp_dls_inversion.py
+# https://github.com/ezygeo-ai/machine-learning-and-geophysical-inversion/blob/master/python/sp_dls_inversion.py
 
 import numpy as np
 import matplotlib.pyplot as plt
