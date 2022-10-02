@@ -41,17 +41,17 @@ parse:
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
   favicon: figures/images/favicon.ico
-  use_edit_page_button: true
+  use_edit_page_button: false
   use_repository_button: true
   use_issues_button: true
   extra_navbar: >
     <b>partially published on:</b></br>
-    <a href="https://medium.com/@mheriyanto"><img src="https://raw.githubusercontent.com/mheriyanto/mheriyanto/master/icons/medium.png" height="45" width="45" title="medium"></a>
-    <a href="https://dev.to/mheriyanto"><img src="https://raw.githubusercontent.com/mheriyanto/mheriyanto/master/icons/dev.png" height="45" width="45" title="dev.to"></a>
+    <a href="https://medium.com/@mheriyanto"><img src="https://raw.githubusercontent.com/mheriyanto/mheriyanto/master/icons/medium.png" height="30" width="30" title="medium"></a>
+    <a href="https://dev.to/mheriyanto"><img src="https://raw.githubusercontent.com/mheriyanto/mheriyanto/master/icons/dev.png" height="30" width="30" title="dev.to"></a>
     </br></br>
     <b>authors:</b></br>
-    <a href="https://mheriyanto.dev"><img src="https://raw.githubusercontent.com/mheriyanto/mheriyanto.github.io/master/assets/images/mh-logo.png" height="45" width="45" title="mheriyanto"></a>
-    <a href="https://ezygeo.github.io"><img src="https://raw.githubusercontent.com/mheriyanto/mheriyanto.github.io/master/assets/logos/ezygeo.png" height="45" width="45" title="ezygeo"></a>
+    <a href="https://mheriyanto.dev"><img src="https://raw.githubusercontent.com/mheriyanto/mheriyanto.github.io/master/assets/images/mh-logo.png" height="50" width="50" title="mheriyanto"></a>
+    <a href="https://ezygeo.github.io"><img src="https://raw.githubusercontent.com/mheriyanto/mheriyanto.github.io/master/assets/logos/ezygeo.png" height="50" width="50" title="ezygeo"></a>
     </br></br>
     <a href="https://doi.org/10.5281/zenodo.1807591"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1807591.svg" alt="DOI"></a></br>
     <a href="https://github.com/ezygeo-ai/mlgi/blob/master/LICENSE"><img src="https://img.shields.io/github/license/ezygeo-ai/mlgi.svg" alt="Licence"></a>
