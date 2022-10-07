@@ -61,16 +61,17 @@ html:
   #   <p>
   #   This work is licenced under the <a href="https://choosealicense.com/licenses/mit">MIT License</a>.
   #   </p>
+  google_analytics_id: "G-0K9CQ7SY8W"
   home_page_in_navbar: true
   # baseurl: ""
-  announcement: "News: buku berbasis web ini sedang dalam tahap development." # A banner announcement at the top of the site.
+  announcement: "<span>&#9888;&#65039;</span> News: buku berbasis web ini sedang dalam tahap development! <span>&#9888;&#65039;</span>" # A banner announcement at the top of the site.
 
 # Define the name of the latex output file for PDF builds
 latex:
   latex_engine: pdflatex
   use_jupyterbook_latex: false
-  latex_documents:
-    targetname: docs/ml_inv_geo.tex
+  # latex_documents:
+  #   targetname: docs/ml_inv_geo.tex
 
 # Launch button settings
 launch_buttons:
@@ -78,7 +79,7 @@ launch_buttons:
   binderhub_url             : https://mybinder.org  # The URL of the BinderHub (e.g., https://mybinder.org)
   jupyterhub_url            : ""  # The URL of the JupyterHub (e.g., https://datahub.berkeley.edu)
   thebe                     : false  # Add a thebe button to pages (requires the repository to run on Binder)
-  colab_url                 : "https://colab.research.google.com/drive/1QVn2yRf02UQKvKZrbBWFN2PMlNIdVasR?usp=sharing" # The URL of Google Colab (https://colab.research.google.com)
+  colab_url                 : "https://colab.research.google.com" # The URL of Google Colab (https://colab.research.google.com)
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
@@ -93,3 +94,5 @@ repository:
 sphinx:
   config:
     bibtex_reference_style: author_year
+  extra_extensions:
+  - sphinx_inline_tabs
