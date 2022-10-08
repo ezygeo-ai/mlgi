@@ -1,5 +1,7 @@
 # **Pemodelan Inversi**
 
+**Daftar Bagian:**
+
 ```{tableofcontents}
 ```
 
