@@ -69,7 +69,6 @@ for ix in range(iterations):
 
     loss[ix] = (0.5) * np.square(y_hat - y_train).mean()
 
-
 # Ploting loss vs iterations
 plt.figure()
 ix = np.arange(iterations)
