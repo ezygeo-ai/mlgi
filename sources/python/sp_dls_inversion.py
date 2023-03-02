@@ -17,7 +17,6 @@ with open(os.path.dirname(os.path.abspath(__file__)) + '/../data/SP_syn_data.pic
 #with open(os.path.dirname(__file__) + '/../data/SP_syn_data.pickle', 'rb') as f:
 #    position, SPData_syntethic = pickle.load(f)
 
-
 # forward function
 def forward(par, x_inp):
     var_x0 = par[0]
@@ -31,14 +30,11 @@ def forward(par, x_inp):
         var_down = ((i - var_x0)*(i - var_x0) + var_h*var_h) ** (3/2)
         var = var_k * (var_up / var_down)
         var_sp.append(var)
-
     return var_sp
-
 
 # misfit equation
 def pers(var_m, x_inp, y):
     return forward(var_m, x_inp) - y
-
 
 # initial model
 x0 = 20  # m

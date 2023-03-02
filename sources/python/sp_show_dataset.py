@@ -53,4 +53,3 @@ plt.ylabel('SP data (mV)')
 plt.title('Self-Potential Dataset: Validation')
 plt.grid()
 plt.show()
-

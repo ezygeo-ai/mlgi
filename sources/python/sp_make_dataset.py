@@ -6,7 +6,6 @@ import numpy as np
 import random as rd
 import pickle
 
-
 # SP forward function
 def SPfunc(x_inp, par):
     var_x0 = par[0]
@@ -26,9 +25,7 @@ def SPfunc(x_inp, par):
     mean_noise = 0
     noise_data = np.random.normal(mean_noise, np.sqrt(std_noise), len(var_sp))
     var_sp_noise = var_sp + noise_data
-
     return var_sp, var_sp_noise, noise_data
-
 
 # === MAKE SYNTHETIC DATASET
 min_x0 = 50
@@ -71,7 +68,6 @@ for it_dat in range(ndata):
     measure_loc = np.linspace(0, 150, 101)     # Location of measurement
     get_SPData = SPfunc(measure_loc, par_mod)
     dataset.append((par_mod, get_SPData))  # [(input, output)]
-
 
 with open('../data/SP_Dataset.pickle', 'wb') as f:
     pickle.dump(dataset, f)

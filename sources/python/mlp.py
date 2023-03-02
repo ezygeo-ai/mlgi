@@ -22,7 +22,6 @@ Methods:
 
 import numpy as np
 
-
 class Mlp():
     """
     fully-connected Multi-Layer Perceptron (MLP)

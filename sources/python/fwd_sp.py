@@ -27,7 +27,6 @@ def SPfunc(x_inp, par):
 
     return var_sp, var_sp_noise, noise_data
 
-
 # === TEST FORWARD MODELING
 x0 = 77.07  # m
 alpha = 309.37 * (np.pi/180)    # deg2rad
@@ -54,7 +53,6 @@ plt.figure()
 plt.hist(noise_from_maxData, density=True, bins=20)
 plt.ylabel('noise distribution')
 plt.show()
-
 
 with open('../data/SP_syn_data.pickle', 'wb') as f:
     pickle.dump([measure_loc, get_SPData_noise], f)

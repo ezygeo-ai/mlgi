@@ -22,4 +22,4 @@ name: sp_dls_inv_result
 
 **Error**: 0.029529 %
 
-with research paper reference [W. Srigutomo, et al, 2016](http://ijphysics.com/index.php/ijp/article/view/138) that is modified [sp_dls_inversion_scratch.py](https://github.com/ezygeo-ai/mlgi/blob/master/sources/python/sp_dls_inversion.py) below. Jacobian matrix was calculated using [derrivatives_in_python.py](https://github.com/ezygeo-ai/mlgi/blob/master/python/derrivatives_in_python.py).
+with research paper reference [W. Srigutomo, et al, 2016](http://ijphysics.com/index.php/ijp/article/view/138) that is modified [sp_dls_inversion_scratch.py](https://github.com/ezygeo-ai/mlgi/blob/master/sources/python/sp_dls_inversion.py) below. Jacobian matrix was calculated using [derrivatives.py](https://github.com/ezygeo-ai/mlgi/blob/master/python/derrivatives.py).
